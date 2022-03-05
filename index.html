@@ -1,0 +1,1350 @@
+<!--!
+  @author Mohamed Muntasir
+  @link https://github.com/devmotheg
+  -->
+
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="./src/css/all.min.css" />
+	<title>Elzero Template</title>
+</head>
+
+<body class="text-black min-w-[450px] bg-white">
+	<!-- Start Header -->
+	<header class="mb-8 bg-white shadow-md shadow-black/5">
+		<nav
+			class="container relative flex flex-col items-center justify-center px-16 mx-auto md:justify-between md:flex-row">
+			<!-- Start Logo -->
+			<button class="flex items-center h-12 text-2xl font-bold capitalize md:h-16 md:text-3xl text-main">elzero</button>
+			<!-- End Logo -->
+			<!-- Start Nav Links -->
+			<ul class="flex items-center capitalize">
+				<li class="shrink-0"><a
+						class="relative flex items-center h-10 p-2 text-sm transition md:text-lg md:p-0 md:px-4 md:h-16 hover:bg-neutral-50 before:absolute before:top-0 before:left-0 before:h-1 before:transition-all hover:text-main before:bg-main before:w-0 hover:before:w-full"
+						href="#articles">articles</a>
+				</li>
+				<li class="shrink-0"><a
+						class="relative flex items-center h-10 p-2 text-sm transition md:text-lg md:p-0 md:px-4 md:h-16 hover:bg-neutral-50 before:absolute before:top-0 before:left-0 before:h-1 before:transition-all hover:text-main before:bg-main before:w-0 hover:before:w-full"
+						href="#gallery">gallery</a>
+				</li>
+				<li class="shrink-0"><a
+						class="relative flex items-center h-10 p-2 text-sm transition md:text-lg md:p-0 md:px-4 md:h-16 hover:bg-neutral-50 before:absolute before:top-0 before:left-0 before:h-1 before:transition-all hover:text-main before:bg-main before:w-0 hover:before:w-full"
+						href="#features">features</a>
+				</li>
+				<li class="shrink-0 group">
+					<button
+						class="relative flex items-center h-10 p-2 text-sm capitalize transition md:text-lg md:p-0 md:px-4 md:h-16 hover:bg-neutral-50 before:absolute before:top-0 before:left-0 before:h-1 before:transition-all hover:text-main before:bg-main before:w-0 hover:before:w-full">
+						other links
+					</button>
+					<!-- Start Megamenu -->
+					<div
+						class="border-b-4 border-solid border-t-[0.01rem] border-b-main border-t-neutral-200 border absolute shadow-lg z-20 flex w-full md:w-[calc(100%-8rem)] gap-8 p-8 -translate-x-1/2 bg-white left-1/2 top-[150%] justify-between items-center opacity-0 invisible transition-all group-hover:visible group-hover:opacity-100 group-hover:top-full">
+						<div class="max-w-[25rem] hidden lg:block">
+							<img src="./src/img/megamenu.png" alt="Megamenu Image" />
+						</div>
+						<div class="flex flex-col w-full md:flex-row md:gap-4 lg:w-3/4">
+							<ul class="grid w-full lg:w-1/2 border-b-[0.01rem] border-solid border-neutral-200 md:border-none">
+								<li class="w-full">
+									<a class="relative block p-3 text-sm md:text-lg font-bold capitalize border-b-[0.01rem] border-solid before:transition-all before:absolute before:-z-10 before:top-0 before:left-0 before:h-full before:w-0 before:bg-neutral-50 hover:before:w-full text-main border-neutral-200"
+										href="#testimonials">
+										<i class="mr-2 far fa-comments fa-fw"></i>
+										testimonials
+									</a>
+								</li>
+								<li class="w-full">
+									<a class="relative block p-3 text-sm md:text-lg font-bold capitalize border-b-[0.01rem] border-solid before:transition-all before:absolute before:-z-10 before:top-0 before:left-0 before:h-full before:w-0 before:bg-neutral-50 hover:before:w-full text-main border-neutral-200"
+										href="#team">
+										<i class="mr-2 far fa-user fa-fw"></i>
+										team members
+									</a>
+								</li>
+								<li class="w-full">
+									<a class="relative block p-3 text-sm md:text-lg font-bold capitalize border-b-[0.01rem] border-solid before:transition-all before:absolute before:-z-10 before:top-0 before:left-0 before:h-full before:w-0 before:bg-neutral-50 hover:before:w-full text-main border-neutral-200"
+										href="#services">
+										<i class="mr-2 far fa-building fa-fw"></i>
+										services
+									</a>
+								</li>
+								<li class="w-full">
+									<a class="relative block p-3 text-sm md:text-lg font-bold capitalize border-b-[0.01rem] border-solid before:transition-all before:absolute before:-z-10 before:top-0 before:left-0 before:h-full before:w-0 before:bg-neutral-50 hover:before:w-full text-main border-neutral-200"
+										href="#skills">
+										<i class="mr-2 far fa-check-circle fa-fw"></i>
+										our skills
+									</a>
+								</li>
+								<li class="w-full">
+									<a class="relative block p-3 text-sm font-bold capitalize md:text-lg before:transition-all before:absolute before:-z-10 before:top-0 before:left-0 before:h-full before:w-0 before:bg-neutral-50 hover:before:w-full text-main"
+										href="#how">
+										<i class="mr-2 far fa-clipboard fa-fw"></i>
+										how it works
+									</a>
+								</li>
+							</ul>
+							<ul class="grid w-full lg:w-1/2">
+								<li class="w-full">
+									<a class="relative block p-3 text-sm md:text-lg font-bold capitalize border-b-[0.01rem] border-solid before:transition-all before:absolute before:-z-10 before:top-0 before:left-0 before:h-full before:w-0 before:bg-neutral-50 hover:before:w-full text-main border-neutral-200"
+										href="#events">
+										<i class="mr-2 far fa-calendar-alt fa-fw"></i>
+										events
+									</a>
+								</li>
+								<li class="w-full">
+									<a class="relative block p-3 text-sm md:text-lg font-bold capitalize border-b-[0.01rem] border-solid before:transition-all before:absolute before:-z-10 before:top-0 before:left-0 before:h-full before:w-0 before:bg-neutral-50 hover:before:w-full text-main border-neutral-200"
+										href="#plans">
+										<i class="mr-2 fas fa-server fa-fw"></i>
+										pricing plans
+									</a>
+								</li>
+								<li class="w-full">
+									<a class="relative block p-3 text-sm md:text-lg font-bold capitalize border-b-[0.01rem] border-solid before:transition-all before:absolute before:-z-10 before:top-0 before:left-0 before:h-full before:w-0 before:bg-neutral-50 hover:before:w-full text-main border-neutral-200"
+										href="#videos">
+										<i class="mr-2 far fa-play-circle fa-fw"></i>
+										top videos
+									</a>
+								</li>
+								<li class="w-full">
+									<a class="relative block p-3 text-sm md:text-lg font-bold capitalize border-b-[0.01rem] border-solid before:transition-all before:absolute before:-z-10 before:top-0 before:left-0 before:h-full before:w-0 before:bg-neutral-50 hover:before:w-full text-main border-neutral-200"
+										href="#stats">
+										<i class="mr-2 far fa-chart-bar fa-fw"></i>
+										stats
+									</a>
+								</li>
+								<li class="w-full">
+									<a class="relative block p-3 text-sm font-bold capitalize md:text-lg before:transition-all before:absolute before:-z-10 before:top-0 before:left-0 before:h-full before:w-0 before:bg-neutral-50 hover:before:w-full text-main"
+										href="#discount">
+										<i class="mr-2 fas fa-percent fa-fw"></i>
+										request discount
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- End Megamenu -->
+				</li>
+			</ul>
+			<!-- End Nav Links -->
+		</nav>
+	</header>
+	<!-- End Header -->
+	<!-- Start Sections -->
+	<main>
+		<!-- Start Landing -->
+		<section
+			class="relative before:bg-neutral-100 before:absolute before:-top-[15%] before:left-0 before:-z-10 before:-skew-y-3 before:w-full before:h-full before:origin-top-left">
+			<div
+				class="container flex items-center min-h-[calc(100vh-8rem)] md:min-h-[calc(100vh-6rem)] gap-8 px-16 pb-40 mx-auto">
+				<div>
+					<h1 class="mb-4 text-3xl font-bold text-center capitalize lg:text-4xl lg:text-left">welcome, to elzero world
+					</h1>
+					<p class="text-lg text-center capitalize lg:text-xl lg:w-3/4 lg:text-left text-neutral-600">
+						here i'm gonna share everything about my life. books i'm reading,
+						games i'm playing, stories and events
+					</p>
+				</div>
+				<div class="flex-grow max-w-[35rem] hidden lg:block animate-landing-hero">
+					<img src="./src/img/landing-image.png" alt="Landing Image" />
+				</div>
+			</div>
+			<a class="absolute -translate-x-1/2 bottom-4 left-2/4 animate-landing-arrow" href="#articles">
+				<i class="flex justify-center transition text-main hover:text-alt fas fa-angle-double-down fa-2x"></i>
+			</a>
+		</section>
+		<!-- End Landing -->
+		<!-- Start Articles -->
+		<section class="relative py-24" id="articles">
+			<div class="absolute bg-[url('../img/dots.png')] w-[204px] h-[186px] bg-no-repeat top-16 right-0 -z-10"></div>
+			<div class="absolute bg-[url('../img/dots.png')] w-[204px] h-[186px] bg-no-repeat bottom-16 left-0 -z-10"></div>
+			<h2 class="main-title">articles</h2>
+			<div class="container grid grid-cols-[repeat(auto-fill,minmax(16rem,1fr))] gap-16 px-16 mx-auto">
+				<div
+					class="overflow-hidden transition bg-white rounded-md shadow-md shrink-0 group hover:-translate-y-4 hover:shadow-black/20">
+					<div>
+						<img src="./src/img/cat.jpg" alt="Article Image" />
+					</div>
+					<h3 class="p-4 text-xl font-bold capitalize">test title</h3>
+					<p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Reprehenderit</p>
+					<a class="flex items-center justify-between w-full p-4 mt-4 font-bold capitalize border-t-2 border-solid border-neutral200 text-main"
+						href="#">
+						read more
+						<i class="fas fa-long-arrow-alt-right group-hover:animate-article-arrow"></i>
+					</a>
+				</div>
+				<div
+					class="overflow-hidden transition bg-white rounded-md shadow-md shrink-0 group hover:-translate-y-4 hover:shadow-black/20">
+					<div>
+						<img src="./src/img/cat.jpg" alt="Article Image" />
+					</div>
+					<h3 class="p-4 text-xl font-bold capitalize">test title</h3>
+					<p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Reprehenderit</p>
+					<a class="flex items-center justify-between w-full p-4 mt-4 font-bold capitalize border-t-2 border-solid border-neutral200 text-main"
+						href="#">
+						read more
+						<i class="fas fa-long-arrow-alt-right group-hover:animate-article-arrow"></i>
+					</a>
+				</div>
+				<div
+					class="overflow-hidden transition bg-white rounded-md shadow-md shrink-0 group hover:-translate-y-4 hover:shadow-black/20">
+					<div>
+						<img src="./src/img/cat.jpg" alt="Article Image" />
+					</div>
+					<h3 class="p-4 text-xl font-bold capitalize">test title</h3>
+					<p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Reprehenderit</p>
+					<a class="flex items-center justify-between w-full p-4 mt-4 font-bold capitalize border-t-2 border-solid border-neutral200 text-main"
+						href="#">
+						read more
+						<i class="fas fa-long-arrow-alt-right group-hover:animate-article-arrow"></i>
+					</a>
+				</div>
+				<div
+					class="overflow-hidden transition bg-white rounded-md shadow-md shrink-0 group hover:-translate-y-4 hover:shadow-black/20">
+					<div>
+						<img src="./src/img/cat.jpg" alt="Article Image" />
+					</div>
+					<h3 class="p-4 text-xl font-bold capitalize">test title</h3>
+					<p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Reprehenderit</p>
+					<a class="flex items-center justify-between w-full p-4 mt-4 font-bold capitalize border-t-2 border-solid border-neutral200 text-main"
+						href="#">
+						read more
+						<i class="fas fa-long-arrow-alt-right group-hover:animate-article-arrow"></i>
+					</a>
+				</div>
+				<div
+					class="overflow-hidden transition bg-white rounded-md shadow-md shrink-0 group hover:-translate-y-4 hover:shadow-black/20">
+					<div>
+						<img src="./src/img/cat.jpg" alt="Article Image" />
+					</div>
+					<h3 class="p-4 text-xl font-bold capitalize">test title</h3>
+					<p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Reprehenderit</p>
+					<a class="flex items-center justify-between w-full p-4 mt-4 font-bold capitalize border-t-2 border-solid border-neutral200 text-main"
+						href="#">
+						read more
+						<i class="fas fa-long-arrow-alt-right group-hover:animate-article-arrow"></i>
+					</a>
+				</div>
+				<div
+					class="overflow-hidden transition bg-white rounded-md shadow-md shrink-0 group hover:-translate-y-4 hover:shadow-black/20">
+					<div>
+						<img src="./src/img/cat.jpg" alt="Article Image" />
+					</div>
+					<h3 class="p-4 text-xl font-bold capitalize">test title</h3>
+					<p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Reprehenderit</p>
+					<a class="flex items-center justify-between w-full p-4 mt-4 font-bold capitalize border-t-2 border-solid border-neutral200 text-main"
+						href="#">
+						read more
+						<i class="fas fa-long-arrow-alt-right group-hover:animate-article-arrow"></i>
+					</a>
+				</div>
+				<div
+					class="overflow-hidden transition bg-white rounded-md shadow-md shrink-0 group hover:-translate-y-4 hover:shadow-black/20">
+					<div>
+						<img src="./src/img/cat.jpg" alt="Article Image" />
+					</div>
+					<h3 class="p-4 text-xl font-bold capitalize">test title</h3>
+					<p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Reprehenderit</p>
+					<a class="flex items-center justify-between w-full p-4 mt-4 font-bold capitalize border-t-2 border-solid border-neutral200 text-main"
+						href="#">
+						read more
+						<i class="fas fa-long-arrow-alt-right group-hover:animate-article-arrow"></i>
+					</a>
+				</div>
+				<div
+					class="overflow-hidden transition bg-white rounded-md shadow-md shrink-0 group hover:-translate-y-4 hover:shadow-black/20">
+					<div>
+						<img src="./src/img/cat.jpg" alt="Article Image" />
+					</div>
+					<h3 class="p-4 text-xl font-bold capitalize">test title</h3>
+					<p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Reprehenderit</p>
+					<a class="flex items-center justify-between w-full p-4 mt-4 font-bold capitalize border-t-2 border-solid border-neutral200 text-main"
+						href="#">
+						read more
+						<i class="fas fa-long-arrow-alt-right group-hover:animate-article-arrow"></i>
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-- End Articles -->
+		<div
+			class="h-12 relative top-8 [background-image:linear-gradient(135deg,white_50%,transparent_50%),linear-gradient(225deg,white_50%,transparent_50%)] bg-[length:2rem]">
+		</div>
+		<!-- Start Gallery -->
+		<section class="py-24 bg-neutral-100" id="gallery">
+			<h2 class="main-title">gallery</h2>
+			<div class="container px-16 mx-auto grid grid-cols-[repeat(auto-fill,minmax(22rem,1fr))] gap-16">
+				<div class="p-4 bg-white shadow-lg shadow-black/30 group">
+					<div
+						class="relative overflow-hidden before:absolute before:top-2/4 before:left-2/4 before:-translate-x-1/2 before:-translate-y-1/2 before:bg-neutral-100/40 before:z-10 hover:before:animate-gallery-flash before:h-0 before:w-0">
+						<img class="transition group-hover:scale-110 group-hover:rotate-6" src="./src/img/gallery.png"
+							alt="Gallery Image" />
+					</div>
+				</div>
+				<div class="p-4 bg-white shadow-lg shadow-black/30 group">
+					<div
+						class="relative overflow-hidden before:absolute before:top-2/4 before:left-2/4 before:-translate-x-1/2 before:-translate-y-1/2 before:bg-neutral-100/40 before:z-10 hover:before:animate-gallery-flash before:h-0 before:w-0">
+						<img class="transition group-hover:scale-110 group-hover:rotate-6" src="./src/img/gallery.png"
+							alt="Gallery Image" />
+					</div>
+				</div>
+				<div class="p-4 bg-white shadow-lg shadow-black/30 group">
+					<div
+						class="relative overflow-hidden before:absolute before:top-2/4 before:left-2/4 before:-translate-x-1/2 before:-translate-y-1/2 before:bg-neutral-100/40 before:z-10 hover:before:animate-gallery-flash before:h-0 before:w-0">
+						<img class="transition group-hover:scale-110 group-hover:rotate-6" src="./src/img/gallery.png"
+							alt="Gallery Image" />
+					</div>
+				</div>
+				<div class="p-4 bg-white shadow-lg shadow-black/30 group">
+					<div
+						class="relative overflow-hidden before:absolute before:top-2/4 before:left-2/4 before:-translate-x-1/2 before:-translate-y-1/2 before:bg-neutral-100/40 before:z-10 hover:before:animate-gallery-flash before:h-0 before:w-0">
+						<img class="transition group-hover:scale-110 group-hover:rotate-6" src="./src/img/gallery.png"
+							alt="Gallery Image" />
+					</div>
+				</div>
+				<div class="p-4 bg-white shadow-lg shadow-black/30 group">
+					<div
+						class="relative overflow-hidden before:absolute before:top-2/4 before:left-2/4 before:-translate-x-1/2 before:-translate-y-1/2 before:bg-neutral-100/40 before:z-10 hover:before:animate-gallery-flash before:h-0 before:w-0">
+						<img class="transition group-hover:scale-110 group-hover:rotate-6" src="./src/img/gallery.png"
+							alt="Gallery Image" />
+					</div>
+				</div>
+				<div class="p-4 bg-white shadow-lg shadow-black/30 group">
+					<div
+						class="relative overflow-hidden before:absolute before:top-2/4 before:left-2/4 before:-translate-x-1/2 before:-translate-y-1/2 before:bg-neutral-100/40 before:z-10 hover:before:animate-gallery-flash before:h-0 before:w-0">
+						<img class="transition group-hover:scale-110 group-hover:rotate-6" src="./src/img/gallery.png"
+							alt="Gallery Image" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Gallery -->
+		<!-- Start Features -->
+		<section class="relative py-24" id="features">
+			<div class="absolute bg-[url('../img/dots.png')] w-[204px] h-[186px] bg-no-repeat top-16 right-0 -z-10"></div>
+			<div class="absolute bg-[url('../img/dots.png')] w-[204px] h-[186px] bg-no-repeat bottom-16 left-0 -z-10"></div>
+			<h2 class="main-title">feautres</h2>
+			<div class="container px-16 mx-auto grid grid-cols-[repeat(auto-fill,minmax(22rem,1fr))] gap-16">
+				<div class="overflow-hidden bg-white rounded-md shadow-lg group">
+					<div
+						class="relative overflow-hidden before:absolute before:w-full before:h-full before:-top-px before:left-0 before:bg-blue-400/60 after:border-[0_0_12rem_48rem] group-hover:after:border-[0_68rem_14rem_0] after:transition-all after:border-transparent after:border-b-white after:border-solid after:absolute after:-bottom-px after:right-0">
+						<img src="./src/img/features.jpg" alt="Feature Image" />
+					</div>
+					<div class="p-8 space-y-10">
+						<h3
+							class="text-3xl w-fit mx-auto font-bold text-center capitalize relative after:absolute after:top-[calc(100%+1rem)] after:left-2/4 after:-translate-x-1/2 after:h-1 after:w-3/4 after:bg-blue-400">
+							time</h3>
+						<p class="py-4 text-lg text-center text-neutral-600">Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Odit
+							harum hic veniam eligendi minima
+						</p>
+						<button
+							class="relative block px-6 py-2 mx-auto text-xl font-bold text-blue-400 capitalize transition-all group-hover:text-white rounded-md outline-2 outline-blue-400 outline [background-image:linear-gradient(to_right,rgb(96,165,250)_50%,white_50%)] [background-size:200%] bg-right-bottom group-hover:bg-left-bottom">more</button>
+					</div>
+				</div>
+				<div class="overflow-hidden bg-white rounded-md shadow-lg group">
+					<div
+						class="relative overflow-hidden before:absolute before:w-full before:h-full before:-top-px before:left-0 before:bg-red-400/60 after:border-[0_0_12rem_48rem] group-hover:after:border-[0_68rem_14rem_0] after:transition-all after:border-transparent after:border-b-white after:border-solid after:absolute after:-bottom-px after:right-0">
+						<img src="./src/img/features.jpg" alt="Feature Image" />
+					</div>
+					<div class="p-8 space-y-10">
+						<h3
+							class="text-3xl w-fit mx-auto font-bold text-center capitalize relative after:absolute after:top-[calc(100%+1rem)] after:left-2/4 after:-translate-x-1/2 after:h-1 after:w-3/4 after:bg-red-400">
+							quality</h3>
+						<p class="py-4 text-lg text-center text-neutral-600">Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Odit
+							harum hic veniam eligendi minima
+						</p>
+						<button
+							class="relative block px-6 py-2 mx-auto text-xl font-bold text-red-400 capitalize transition-all group-hover:text-white rounded-md outline-2 outline-red-400 outline [background-image:linear-gradient(to_right,rgb(248,113,113)_50%,white_50%)] [background-size:200%] bg-right-bottom group-hover:bg-left-bottom">more</button>
+					</div>
+				</div>
+				<div class="overflow-hidden bg-white rounded-md shadow-lg group">
+					<div
+						class="relative overflow-hidden before:absolute before:w-full before:h-full before:-top-px before:left-0 before:bg-green-400/60 after:border-[0_0_12rem_48rem] group-hover:after:border-[0_68rem_14rem_0] after:transition-all after:border-transparent after:border-b-white after:border-solid after:absolute after:-bottom-px after:right-0">
+						<img src="./src/img/features.jpg" alt="Feature Image" />
+					</div>
+					<div class="p-8 space-y-10">
+						<h3
+							class="text-3xl w-fit mx-auto font-bold text-center capitalize relative after:absolute after:top-[calc(100%+1rem)] after:left-2/4 after:-translate-x-1/2 after:h-1 after:w-3/4 after:bg-green-400">
+							passion</h3>
+						<p class="py-4 text-lg text-center text-neutral-600">Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Odit
+							harum hic veniam eligendi minima
+						</p>
+						<button
+							class="relative block px-6 py-2 mx-auto text-xl font-bold text-green-400 capitalize transition-all group-hover:text-white rounded-md outline-2 outline-green-400 outline bg-gradient-to-r from-[rgb(74,222,128)_50%] to-[white_50%] bg-[length:200%_100%] bg-right-bottom group-hover:bg-left-bottom">more</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Features -->
+		<div
+			class="h-12 relative top-8 [background-image:linear-gradient(135deg,white_50%,transparent_50%),linear-gradient(225deg,white_50%,transparent_50%)] bg-[length:2rem]">
+		</div>
+		<!-- Start Testimonials -->
+		<section class="py-24 bg-neutral-100" id="testimonials">
+			<h2 class="main-title">testimonials</h2>
+			<div class="container px-16 mx-auto grid grid-cols-[repeat(auto-fill,minmax(22rem,1fr))] gap-10">
+				<div class="relative p-4 bg-white rounded-md shadow-md">
+					<div
+						class="absolute top-0 right-0 w-24 h-24 overflow-hidden -translate-y-1/2 rounded-full outline outline-8 outline-neutral-100">
+						<img src="./src/img/avatar.png" alt="Testimonial Image" />
+					</div>
+					<div class="space-y-3">
+						<h3 class="text-xl font-bold capitalize">mohamed muntasir</h3>
+						<span class="block text-lg capitalize text-neutral-400">full stack developer</span>
+						<div class="flex items-center gap-2">
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+						<p class="text-lg text-neutral-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Maiores et reiciendis voluptatum, amet est natus quaerat
+							ducimus</p>
+					</div>
+				</div>
+				<div class="relative p-4 bg-white rounded-md shadow-md">
+					<div
+						class="absolute top-0 right-0 w-24 h-24 overflow-hidden -translate-y-1/2 rounded-full outline outline-8 outline-neutral-100">
+						<img src="./src/img/avatar.png" alt="Testimonial Image" />
+					</div>
+					<div class="space-y-3">
+						<h3 class="text-xl font-bold capitalize">mohamed muntasir</h3>
+						<span class="block text-lg capitalize text-neutral-400">full stack developer</span>
+						<div class="flex items-center gap-2">
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+						<p class="text-lg text-neutral-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Maiores et reiciendis voluptatum, amet est natus quaerat
+							ducimus</p>
+					</div>
+				</div>
+				<div class="relative p-4 bg-white rounded-md shadow-md">
+					<div
+						class="absolute top-0 right-0 w-24 h-24 overflow-hidden -translate-y-1/2 rounded-full outline outline-8 outline-neutral-100">
+						<img src="./src/img/avatar.png" alt="Testimonial Image" />
+					</div>
+					<div class="space-y-3">
+						<h3 class="text-xl font-bold capitalize">mohamed muntasir</h3>
+						<span class="block text-lg capitalize text-neutral-400">full stack developer</span>
+						<div class="flex items-center gap-2">
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+						<p class="text-lg text-neutral-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Maiores et reiciendis voluptatum, amet est natus quaerat
+							ducimus</p>
+					</div>
+				</div>
+				<div class="relative p-4 bg-white rounded-md shadow-md">
+					<div
+						class="absolute top-0 right-0 w-24 h-24 overflow-hidden -translate-y-1/2 rounded-full outline outline-8 outline-neutral-100">
+						<img src="./src/img/avatar.png" alt="Testimonial Image" />
+					</div>
+					<div class="space-y-3">
+						<h3 class="text-xl font-bold capitalize">mohamed muntasir</h3>
+						<span class="block text-lg capitalize text-neutral-400">full stack developer</span>
+						<div class="flex items-center gap-2">
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+						<p class="text-lg text-neutral-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Maiores et reiciendis voluptatum, amet est natus quaerat
+							ducimus</p>
+					</div>
+				</div>
+				<div class="relative p-4 bg-white rounded-md shadow-md">
+					<div
+						class="absolute top-0 right-0 w-24 h-24 overflow-hidden -translate-y-1/2 rounded-full outline outline-8 outline-neutral-100">
+						<img src="./src/img/avatar.png" alt="Testimonial Image" />
+					</div>
+					<div class="space-y-3">
+						<h3 class="text-xl font-bold capitalize">mohamed muntasir</h3>
+						<span class="block text-lg capitalize text-neutral-400">full stack developer</span>
+						<div class="flex items-center gap-2">
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+						<p class="text-lg text-neutral-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Maiores et reiciendis voluptatum, amet est natus quaerat
+							ducimus</p>
+					</div>
+				</div>
+				<div class="relative p-4 bg-white rounded-md shadow-md">
+					<div
+						class="absolute top-0 right-0 w-24 h-24 overflow-hidden -translate-y-1/2 rounded-full outline outline-8 outline-neutral-100">
+						<img src="./src/img/avatar.png" alt="Testimonial Image" />
+					</div>
+					<div class="space-y-3">
+						<h3 class="text-xl font-bold capitalize">mohamed muntasir</h3>
+						<span class="block text-lg capitalize text-neutral-400">full stack developer</span>
+						<div class="flex items-center gap-2">
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="text-yellow-400 fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+						<p class="text-lg text-neutral-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Maiores et reiciendis voluptatum, amet est natus quaerat
+							ducimus</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Testimonials -->
+		<!-- Start Team -->
+		<section class="relative py-24" id="team">
+			<div class="absolute bg-[url('../img/dots.png')] w-[204px] h-[186px] bg-no-repeat top-16 right-0 -z-20"></div>
+			<div class="absolute bg-[url('../img/dots.png')] w-[204px] h-[186px] bg-no-repeat bottom-16 left-0 -z-20"></div>
+			<h2 class="main-title">team members</h2>
+			<div class="px-16 mx-auto container grid grid-cols-[repeat(auto-fill,minmax(22rem,1fr))] gap-10">
+				<div
+					class="relative p-6 before:absolute before:top-0 before:right-0 before:h-full before:w-[90%] before:bg-neutral-100 before:-z-20 before:rounded-md transition after:w-0 group after:top-0 after:right-0 after:h-full after:bg-neutral-200 after:absolute hover:after:w-[90%] after:-z-10 after:rounded-md after:transition-all">
+					<div class="flex items-center justify-end gap-4 my-4">
+						<img class="w-full transition-all rounded-md group-hover:grayscale" src="./src/img/team.png"
+							alt="Team Image" />
+						<ul class="space-y-8">
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-facebook-f"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-twitter"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-linkedin-in"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-youtube"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class="pl-[12%] transition-all group-hover:grayscale">
+						<h3 class="mb-2 text-xl font-bold capitalize text-main">name</h3>
+						<p class="">Simple Short Discription</p>
+					</div>
+				</div>
+				<div
+					class="relative p-6 before:absolute before:top-0 before:right-0 before:h-full before:w-[90%] before:bg-neutral-100 before:-z-20 before:rounded-md transition after:w-0 group after:top-0 after:right-0 after:h-full after:bg-neutral-200 after:absolute hover:after:w-[90%] after:-z-10 after:rounded-md after:transition-all">
+					<div class="flex items-center justify-end gap-4 my-4">
+						<img class="w-full transition-all rounded-md group-hover:grayscale" src="./src/img/team.png"
+							alt="Team Image" />
+						<ul class="space-y-8">
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-facebook-f"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-twitter"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-linkedin-in"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-youtube"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class="pl-[12%] transition-all group-hover:grayscale">
+						<h3 class="mb-2 text-xl font-bold capitalize text-main">name</h3>
+						<p class="">Simple Short Discription</p>
+					</div>
+				</div>
+				<div
+					class="relative p-6 before:absolute before:top-0 before:right-0 before:h-full before:w-[90%] before:bg-neutral-100 before:-z-20 before:rounded-md transition after:w-0 group after:top-0 after:right-0 after:h-full after:bg-neutral-200 after:absolute hover:after:w-[90%] after:-z-10 after:rounded-md after:transition-all">
+					<div class="flex items-center justify-end gap-4 my-4">
+						<img class="w-full transition-all rounded-md group-hover:grayscale" src="./src/img/team.png"
+							alt="Team Image" />
+						<ul class="space-y-8">
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-facebook-f"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-twitter"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-linkedin-in"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-youtube"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class="pl-[12%] transition-all group-hover:grayscale">
+						<h3 class="mb-2 text-xl font-bold capitalize text-main">name</h3>
+						<p class="">Simple Short Discription</p>
+					</div>
+				</div>
+				<div
+					class="relative p-6 before:absolute before:top-0 before:right-0 before:h-full before:w-[90%] before:bg-neutral-100 before:-z-20 before:rounded-md transition after:w-0 group after:top-0 after:right-0 after:h-full after:bg-neutral-200 after:absolute hover:after:w-[90%] after:-z-10 after:rounded-md after:transition-all">
+					<div class="flex items-center justify-end gap-4 my-4">
+						<img class="w-full transition-all rounded-md group-hover:grayscale" src="./src/img/team.png"
+							alt="Team Image" />
+						<ul class="space-y-8">
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-facebook-f"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-twitter"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-linkedin-in"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-youtube"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class="pl-[12%] transition-all group-hover:grayscale">
+						<h3 class="mb-2 text-xl font-bold capitalize text-main">name</h3>
+						<p class="">Simple Short Discription</p>
+					</div>
+				</div>
+				<div
+					class="relative p-6 before:absolute before:top-0 before:right-0 before:h-full before:w-[90%] before:bg-neutral-100 before:-z-20 before:rounded-md transition after:w-0 group after:top-0 after:right-0 after:h-full after:bg-neutral-200 after:absolute hover:after:w-[90%] after:-z-10 after:rounded-md after:transition-all">
+					<div class="flex items-center justify-end gap-4 my-4">
+						<img class="w-full transition-all rounded-md group-hover:grayscale" src="./src/img/team.png"
+							alt="Team Image" />
+						<ul class="space-y-8">
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-facebook-f"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-twitter"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-linkedin-in"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-youtube"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class="pl-[12%] transition-all group-hover:grayscale">
+						<h3 class="mb-2 text-xl font-bold capitalize text-main">name</h3>
+						<p class="">Simple Short Discription</p>
+					</div>
+				</div>
+				<div
+					class="relative p-6 before:absolute before:top-0 before:right-0 before:h-full before:w-[90%] before:bg-neutral-100 before:-z-20 before:rounded-md transition after:w-0 group after:top-0 after:right-0 after:h-full after:bg-neutral-200 after:absolute hover:after:w-[90%] after:-z-10 after:rounded-md after:transition-all">
+					<div class="flex items-center justify-end gap-4 my-4">
+						<img class="w-full transition-all rounded-md group-hover:grayscale" src="./src/img/team.png"
+							alt="Team Image" />
+						<ul class="space-y-8">
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-facebook-f"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-twitter"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-linkedin-in"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-youtube"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class="pl-[12%] transition-all group-hover:grayscale">
+						<h3 class="mb-2 text-xl font-bold capitalize text-main">name</h3>
+						<p class="">Simple Short Discription</p>
+					</div>
+				</div>
+				<div
+					class="relative p-6 before:absolute before:top-0 before:right-0 before:h-full before:w-[90%] before:bg-neutral-100 before:-z-20 before:rounded-md transition after:w-0 group after:top-0 after:right-0 after:h-full after:bg-neutral-200 after:absolute hover:after:w-[90%] after:-z-10 after:rounded-md after:transition-all">
+					<div class="flex items-center justify-end gap-4 my-4">
+						<img class="w-full transition-all rounded-md group-hover:grayscale" src="./src/img/team.png"
+							alt="Team Image" />
+						<ul class="space-y-8">
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-facebook-f"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-twitter"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-linkedin-in"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-youtube"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class="pl-[12%] transition-all group-hover:grayscale">
+						<h3 class="mb-2 text-xl font-bold capitalize text-main">name</h3>
+						<p class="">Simple Short Discription</p>
+					</div>
+				</div>
+				<div
+					class="relative p-6 before:absolute before:top-0 before:right-0 before:h-full before:w-[90%] before:bg-neutral-100 before:-z-20 before:rounded-md transition after:w-0 group after:top-0 after:right-0 after:h-full after:bg-neutral-200 after:absolute hover:after:w-[90%] after:-z-10 after:rounded-md after:transition-all">
+					<div class="flex items-center justify-end gap-4 my-4">
+						<img class="w-full transition-all rounded-md group-hover:grayscale" src="./src/img/team.png"
+							alt="Team Image" />
+						<ul class="space-y-8">
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-facebook-f"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-twitter"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-linkedin-in"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-youtube"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class="pl-[12%] transition-all group-hover:grayscale">
+						<h3 class="mb-2 text-xl font-bold capitalize text-main">name</h3>
+						<p class="">Simple Short Discription</p>
+					</div>
+				</div>
+				<div
+					class="relative p-6 before:absolute before:top-0 before:right-0 before:h-full before:w-[90%] before:bg-neutral-100 before:-z-20 before:rounded-md transition after:w-0 group after:top-0 after:right-0 after:h-full after:bg-neutral-200 after:absolute hover:after:w-[90%] after:-z-10 after:rounded-md after:transition-all">
+					<div class="flex items-center justify-end gap-4 my-4">
+						<img class="w-full transition-all rounded-md group-hover:grayscale" src="./src/img/team.png"
+							alt="Team Image" />
+						<ul class="space-y-8">
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-facebook-f"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-twitter"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-linkedin-in"></i></a>
+							</li>
+							<li>
+								<a class="block mx-auto w-fit" href="#"><i
+										class="transition fab hover:text-main text-neutral-600 fa-youtube"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class="pl-[12%] transition-all group-hover:grayscale">
+						<h3 class="mb-2 text-xl font-bold capitalize text-main">name</h3>
+						<p class="">Simple Short Discription</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Team -->
+		<div
+			class="h-12 relative top-8 [background-image:linear-gradient(135deg,white_50%,transparent_50%),linear-gradient(225deg,white_50%,transparent_50%)] bg-[length:2rem]">
+		</div>
+		<!-- Start Services -->
+		<section class="py-24 bg-neutral-100" id="services">
+			<h2 class="main-title">services</h2>
+			<div
+				class="container [counter-reset:services] px-16 mx-auto grid grid-cols-[repeat(auto-fill,minmax(22rem,1fr))] gap-10">
+				<div
+					class="shadow-md transition before:transition-all hover:-translate-y-4 before:left-2/4 before:-translate-x-1/2 before:h-1 before:w-0 before:bg-main hover:before:w-full before:absolute before:top-0 [counter-increment:services] relative bg-white">
+					<i class="flex justify-center mt-6 mb-4 fas fa-user-shield fa-4x text-neutral-400"></i>
+					<h3 class="flex justify-center mb-8 text-3xl font-bold capitalize text-main">security</h3>
+					<div
+						class="relative p-3 text-right before:text-white before:content-['0'_counter(services)] before:pr-8 before:text-3xl before:font-bold before:flex before:justify-center before:items-center bg-neutral-50 before:absolute after:absolute before:bottom-0 after:bottom-0 before:left-0 after:left-20 before:w-24 before:h-full after:w-16 after:-skew-x-[30deg] after:h-full before:bg-main after:bg-neutral-200">
+						<button class="px-4 text-lg capitalize text-main">details</button>
+					</div>
+				</div>
+				<div
+					class="shadow-md transition before:transition-all hover:-translate-y-4 before:left-2/4 before:-translate-x-1/2 before:h-1 before:w-0 before:bg-main hover:before:w-full before:absolute before:top-0 [counter-increment:services] relative bg-white">
+					<i class="flex justify-center mt-6 mb-4 fas fa-tools fa-4x text-neutral-400"></i>
+					<h3 class="flex justify-center mb-8 text-3xl font-bold capitalize text-main">fixing issues</h3>
+					<div
+						class="relative p-3 text-right before:text-white before:content-['0'_counter(services)] before:pr-8 before:text-3xl before:font-bold before:flex before:justify-center before:items-center bg-neutral-50 before:absolute after:absolute before:bottom-0 after:bottom-0 before:left-0 after:left-20 before:w-24 before:h-full after:w-16 after:-skew-x-[30deg] after:h-full before:bg-main after:bg-neutral-200">
+						<button class="px-4 text-lg capitalize text-main">details</button>
+					</div>
+				</div>
+				<div
+					class="shadow-md transition before:transition-all hover:-translate-y-4 before:left-2/4 before:-translate-x-1/2 before:h-1 before:w-0 before:bg-main hover:before:w-full before:absolute before:top-0 [counter-increment:services] relative bg-white">
+					<i class="flex justify-center mt-6 mb-4 fas fa-laptop-code fa-4x text-neutral-400"></i>
+					<h3 class="flex justify-center mb-8 text-3xl font-bold capitalize text-main">coding</h3>
+					<div
+						class="relative p-3 text-right before:text-white before:content-['0'_counter(services)] before:pr-8 before:text-3xl before:font-bold before:flex before:justify-center before:items-center bg-neutral-50 before:absolute after:absolute before:bottom-0 after:bottom-0 before:left-0 after:left-20 before:w-24 before:h-full after:w-16 after:-skew-x-[30deg] after:h-full before:bg-main after:bg-neutral-200">
+						<button class="px-4 text-lg capitalize text-main">details</button>
+					</div>
+				</div>
+				<div
+					class="shadow-md transition before:transition-all hover:-translate-y-4 before:left-2/4 before:-translate-x-1/2 before:h-1 before:w-0 before:bg-main hover:before:w-full before:absolute before:top-0 [counter-increment:services] relative bg-white">
+					<i class="flex justify-center mt-6 mb-4 fas fa-bullhorn fa-4x text-neutral-400"></i>
+					<h3 class="flex justify-center mb-8 text-3xl font-bold capitalize text-main">marketing</h3>
+					<div
+						class="relative p-3 text-right before:text-white before:content-['0'_counter(services)] before:pr-8 before:text-3xl before:font-bold before:flex before:justify-center before:items-center bg-neutral-50 before:absolute after:absolute before:bottom-0 after:bottom-0 before:left-0 after:left-20 before:w-24 before:h-full after:w-16 after:-skew-x-[30deg] after:h-full before:bg-main after:bg-neutral-200">
+						<button class="px-4 text-lg capitalize text-main">details</button>
+					</div>
+				</div>
+				<div
+					class="shadow-md transition before:transition-all hover:-translate-y-4 before:left-2/4 before:-translate-x-1/2 before:h-1 before:w-0 before:bg-main hover:before:w-full before:absolute before:top-0 [counter-increment:services] relative bg-white">
+					<i class="flex justify-center mt-6 mb-4 fas fa-map-marked-alt fa-4x text-neutral-400"></i>
+					<h3 class="flex justify-center mb-8 text-3xl font-bold capitalize text-main">location</h3>
+					<div
+						class="relative p-3 text-right before:text-white before:content-['0'_counter(services)] before:pr-8 before:text-3xl before:font-bold before:flex before:justify-center before:items-center bg-neutral-50 before:absolute after:absolute before:bottom-0 after:bottom-0 before:left-0 after:left-20 before:w-24 before:h-full after:w-16 after:-skew-x-[30deg] after:h-full before:bg-main after:bg-neutral-200">
+						<button class="px-4 text-lg capitalize text-main">details</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Services -->
+		<!-- Start Skills -->
+		<section class="relative py-24" id="skills">
+			<div class="absolute bg-[url('../img/dots.png')] w-[204px] h-[186px] bg-no-repeat top-16 right-0 -z-10"></div>
+			<div class="absolute bg-[url('../img/dots.png')] w-[204px] h-[186px] bg-no-repeat bottom-16 left-0 -z-10"></div>
+			<h2 class="main-title">our skills</h2>
+			<div class="container px-16 mx-auto">
+				<div class="flex items-center gap-8">
+					<img class="hidden lg:block" src="./src/img/skills.png" alt="Skills Image" />
+					<div class="w-full space-y-6">
+						<div>
+							<h3 class="flex items-center justify-between text-lg font-bold">Rust
+								<span
+									class="p-1 text-sm font-bold bg-white border-2 border-solid rounded-md text-main border-neutral-200">80%</span>
+							</h3>
+							<div class="w-full h-8 mt-2 bg-neutral-100">
+								<div class="w-[80%] bg-main h-full"></div>
+							</div>
+						</div>
+						<div>
+							<h3 class="flex items-center justify-between text-lg font-bold">C++
+								<span
+									class="p-1 text-sm font-bold bg-white border-2 border-solid rounded-md text-main border-neutral-200">80%</span>
+							</h3>
+							<div class="w-full h-8 mt-2 bg-neutral-100">
+								<div class="w-[80%] bg-main h-full"></div>
+							</div>
+						</div>
+						<div>
+							<h3 class="flex items-center justify-between text-lg font-bold">Java
+								<span
+									class="p-1 text-sm font-bold bg-white border-2 border-solid rounded-md text-main border-neutral-200">80%</span>
+							</h3>
+							<div class="w-full h-8 mt-2 bg-neutral-100">
+								<div class="w-[80%] bg-main h-full"></div>
+							</div>
+						</div>
+						<div>
+							<h3 class="flex items-center justify-between text-lg font-bold">Assembly
+								<span
+									class="p-1 text-sm font-bold bg-white border-2 border-solid rounded-md text-main border-neutral-200">80%</span>
+							</h3>
+							<div class="w-full h-8 mt-2 bg-neutral-100">
+								<div class="w-[80%] bg-main h-full"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Skills -->
+		<div
+			class="h-12 relative top-8 [background-image:linear-gradient(135deg,white_50%,transparent_50%),linear-gradient(225deg,white_50%,transparent_50%)] bg-[length:2rem]">
+		</div>
+		<!-- Start How -->
+		<section class="py-24 bg-neutral-100" id="how">
+			<h2 class="main-title">how it works</h2>
+			<div class="container flex flex-col items-center gap-24 px-16 mx-auto xl:flex-row">
+				<img src="./src/img/work-steps.png" alt="Work Image" />
+				<div class="space-y-8">
+					<div
+						class="relative flex items-center gap-8 p-8 border-2 border-white border-solid bg-neutral-50 before:absolute before:top-2/4 before:left-2/4 before:-translate-x-1/2 before:-translate-y-1/2 before:w-0 before:h-0 before:transition-all hover:before:w-full hover:before:h-full before:bg-neutral-300 before:opacity-20">
+						<img class="z-10 w-20" src="./src/img/work-steps-1.png" alt="Work Image" />
+						<div class="z-10 space-y-4">
+							<h3 class="text-2xl font-bold capitalize">bussiness analysis</h3>
+							<p class="text-lg text-neutral-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+								Enim nesciunt obcaecati quisquam quis laborum recusandae
+								debitis vel</p>
+						</div>
+					</div>
+					<div
+						class="relative flex items-center gap-8 p-8 border-2 border-white border-solid bg-neutral-50 before:absolute before:top-2/4 before:left-2/4 before:-translate-x-1/2 before:-translate-y-1/2 before:w-0 before:h-0 before:transition-all hover:before:w-full hover:before:h-full before:bg-neutral-300 before:opacity-20">
+						<img class="z-10 w-20" src="./src/img/work-steps-2.png" alt="Work Image" />
+						<div class="z-10 space-y-4">
+							<h3 class="text-2xl font-bold capitalize">architecture</h3>
+							<p class="text-lg text-neutral-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+								Enim nesciunt obcaecati quisquam quis laborum recusandae
+								debitis vel</p>
+						</div>
+					</div>
+					<div
+						class="relative flex items-center gap-8 p-8 border-2 border-white border-solid bg-neutral-50 before:absolute before:top-2/4 before:left-2/4 before:-translate-x-1/2 before:-translate-y-1/2 before:w-0 before:h-0 before:transition-all hover:before:w-full hover:before:h-full before:bg-neutral-300 before:opacity-20">
+						<img class="z-10 w-20" src="./src/img/work-steps-3.png" alt="Work Image" />
+						<div class="z-10 space-y-4">
+							<h3 class="text-2xl font-bold capitalize">development</h3>
+							<p class="text-lg text-neutral-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+								Enim nesciunt obcaecati quisquam quis laborum recusandae
+								debitis vel</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End How -->
+		<!-- Start Events -->
+		<section class="relative py-24" id="events">
+			<div class="absolute bg-[url('../img/dots.png')] w-[204px] h-[186px] bg-no-repeat top-16 right-0 -z-10"></div>
+			<div class="absolute bg-[url('../img/dots.png')] w-[204px] h-[186px] bg-no-repeat bottom-16 left-0 -z-10"></div>
+			<h2 class="main-title">latest events</h2>
+			<div class="container px-16 mx-auto">
+				<div class="flex items-center gap-6">
+					<img class="w-[40%] hidden lg:block" src="./src/img/events.png" alt="Events Image" />
+					<div>
+						<div class="flex flex-wrap items-center justify-center gap-4 mx-auto w-fit">
+							<div
+								class="font-bold transition-all bg-white rounded-md group hover:outline-main outline-2 outline outline-neutral-500">
+								<span
+									class="block px-6 py-4 text-3xl transition-all border-b-2 border-solid text-main group-hover:border-main border-neutral-500">40</span>
+								<span class="block py-2 mx-auto capitalize w-fit">days</span>
+							</div>
+							<div
+								class="font-bold transition-all bg-white rounded-md group hover:outline-main outline-2 outline outline-neutral-500">
+								<span
+									class="block px-6 py-4 text-3xl transition-all border-b-2 border-solid text-main group-hover:border-main border-neutral-500">23</span>
+								<span class="block py-2 mx-auto capitalize w-fit">hours</span>
+							</div>
+							<div
+								class="font-bold transition-all bg-white rounded-md group hover:outline-main outline-2 outline outline-neutral-500">
+								<span
+									class="block px-6 py-4 text-3xl transition-all border-b-2 border-solid text-main group-hover:border-main border-neutral-500">10</span>
+								<span class="block py-2 mx-auto capitalize w-fit">minutes</span>
+							</div>
+							<div
+								class="font-bold transition-all bg-white rounded-md group hover:outline-main outline-2 outline outline-neutral-500">
+								<span
+									class="block px-6 py-4 text-3xl transition-all border-b-2 border-solid text-main group-hover:border-main border-neutral-500">10</span>
+								<span class="block py-2 mx-auto capitalize w-fit">seconds</span>
+							</div>
+						</div>
+						<div class="mt-10 space-y-4 text-center">
+							<h3 class="text-2xl font-bold capitalize">tech masters event 2021</h3>
+							<p class="text-lg text-neutral-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+								vero tenetur doloremque iusto ut adipisci quam ratione aliquam
+								excepturi nulla in harum, veritatis porro</p>
+						</div>
+					</div>
+				</div>
+				<div
+					class="flex flex-col items-center gap-4 p-4 mx-auto mt-12 md:rounded-full md:flex-row lg:w-2/4 bg-neutral-100">
+					<input
+						class="w-full p-4 bg-white border-none outline-none md:rounded-full indent-2 caret-main placeholder:transition focus:placeholder:opacity-0 placeholder:text-black placeholder:capitalize"
+						type="email" placeholder="enter your email" />
+					<input
+						class="w-full px-6 py-4 font-bold text-white capitalize transition cursor-pointer md:w-fit md:rounded-full hover:bg-alt bg-main"
+						type="submit" value="subscribe" />
+				</div>
+			</div>
+		</section>
+		<!-- End Events -->
+		<div
+			class="h-12 relative top-8 [background-image:linear-gradient(135deg,white_50%,transparent_50%),linear-gradient(225deg,white_50%,transparent_50%)] bg-[length:2rem]">
+		</div>
+		<!-- Start Plans -->
+		<section class="py-24 bg-neutral-100" id="plans">
+			<h2 class="main-title">pricing plans</h2>
+			<div class="container px-16 mx-auto grid justify-center grid-cols-[repeat(auto-fill,minmax(22rem,1fr))] gap-10">
+				<div
+					class="relative bg-white rounded-md shadow-lg before:transition-all after:transition-all before:absolute after:absolute before:top-0 after:bottom-0 before:left-0 after:right-0 before:h-2/4 after:h-2/4 before:w-0 after:w-0 before:bg-neutral-100 after:bg-neutral-100 hover:before:w-full before:opacity-70 after:opacity-70 hover:after:w-full">
+					<div class="relative z-10 space-y-4 text-center">
+						<h3 class="pt-6 text-2xl font-bold capitalize">basic</h3>
+						<img class="inline w-24" src="./src/img/hosting-basic.png" alt="Plan Image" />
+						<div class="space-y-2">
+							<span class="block text-6xl font-bold text-main">&dollar;15</span>
+							<span class="block text-lg capitalize text-neutral-500">per month</span>
+						</div>
+						<ul>
+							<li class="p-4 text-lg text-left border-t-2 border-solid border-neutral-200/40">
+								<i class="inline-block mr-2 fas fa-check text-main"></i>
+								10GB HDD Space
+							</li>
+							<li class="p-4 text-lg text-left border-t-2 border-solid border-neutral-200/40">
+								<i class="inline-block mr-2 fas fa-check text-main"></i>
+								5 Email Addresses
+							</li>
+							<li class="p-4 text-lg text-left border-t-2 border-solid border-neutral-200/40">
+								<i class="inline-block mr-2 fas fa-check text-main"></i>
+								2 Subdomains
+							</li>
+							<li class="p-4 text-lg text-left border-t-2 border-solid border-neutral-200/40">
+								<i class="inline-block mr-2 fas fa-check text-main"></i>
+								4 Databases
+							</li>
+							<li class="p-4 text-lg text-left border-t-2 border-solid border-neutral-200/40">
+								<i class="inline-block mr-2 fas fa-check text-main"></i>
+								Basic Support
+							</li>
+						</ul>
+						<div class="pt-2 pb-8">
+							<button
+								class="px-6 py-4 text-lg font-bold capitalize transition border-2 border-solid rounded-md text-main border-main hover:text-white hover:bg-main">choose
+								plan</button>
+						</div>
+					</div>
+				</div>
+				<div
+					class="relative bg-white rounded-md shadow-lg xl:-translate-y-6 xl:shadow-black/20 before:transition-all after:transition-all before:absolute after:absolute before:top-0 after:bottom-0 before:left-0 after:right-0 before:h-2/4 after:h-2/4 before:w-0 after:w-0 before:bg-neutral-100 after:bg-neutral-100 hover:before:w-full before:opacity-70 after:opacity-70 hover:after:w-full">
+					<div
+						class="absolute top-0 right-6 bg-main text-white font-bold [writing-mode:vertical-lr] p-2 before:absolute before:-bottom-px before:left-0 before:border-[1.37rem] before:border-solid before:border-transparent before:border-b-white">
+						<span class="text-lg capitalize pb-[1.37rem]">most popular</span>
+					</div>
+					<div class="relative z-10 space-y-4 text-center">
+						<h3 class="pt-6 text-2xl font-bold capitalize">advanced</h3>
+						<img class="inline w-24" src="./src/img/hosting-advanced.png" alt="Plan Image" />
+						<div class="space-y-2">
+							<span class="block text-6xl font-bold text-main">&dollar;25</span>
+							<span class="block text-lg capitalize text-neutral-500">per month</span>
+						</div>
+						<ul>
+							<li class="p-4 text-lg text-left border-t-2 border-solid border-neutral-200/40">
+								<i class="inline-block mr-2 fas fa-check text-main"></i>
+								20GB HDD Space
+							</li>
+							<li class="p-4 text-lg text-left border-t-2 border-solid border-neutral-200/40">
+								<i class="inline-block mr-2 fas fa-check text-main"></i>
+								10 Email Addresses
+							</li>
+							<li class="p-4 text-lg text-left border-t-2 border-solid border-neutral-200/40">
+								<i class="inline-block mr-2 fas fa-check text-main"></i>
+								5 Subdomains
+							</li>
+							<li class="p-4 text-lg text-left border-t-2 border-solid border-neutral-200/40">
+								<i class="inline-block mr-2 fas fa-check text-main"></i>
+								8 Databases
+							</li>
+							<li class="p-4 text-lg text-left border-t-2 border-solid border-neutral-200/40">
+								<i class="inline-block mr-2 fas fa-check text-main"></i>
+								Advanced Support
+							</li>
+						</ul>
+						<div class="pt-2 pb-8">
+							<button
+								class="px-6 py-4 text-lg font-bold capitalize transition border-2 border-solid rounded-md text-main border-main hover:text-white hover:bg-main">choose
+								plan</button>
+						</div>
+					</div>
+				</div>
+				<div
+					class="relative bg-white rounded-md shadow-lg before:transition-all after:transition-all before:absolute after:absolute before:top-0 after:bottom-0 before:left-0 after:right-0 before:h-2/4 after:h-2/4 before:w-0 after:w-0 before:bg-neutral-100 after:bg-neutral-100 hover:before:w-full before:opacity-70 after:opacity-70 hover:after:w-full">
+					<div class="relative z-10 space-y-4 text-center">
+						<h3 class="pt-6 text-2xl font-bold capitalize">professional</h3>
+						<img class="inline w-24" src="./src/img/hosting-professional.png" alt="Plan Image" />
+						<div class="space-y-2">
+							<span class="block text-6xl font-bold text-main">&dollar;45</span>
+							<span class="block text-lg capitalize text-neutral-500">per month</span>
+						</div>
+						<ul>
+							<li class="p-4 text-lg text-left border-t-2 border-solid border-neutral-200/40">
+								<i class="inline-block mr-2 fas fa-check text-main"></i>
+								50GB HDD Space
+							</li>
+							<li class="p-4 text-lg text-left border-t-2 border-solid border-neutral-200/40">
+								<i class="inline-block mr-2 fas fa-check text-main"></i>
+								20 Email Addresses
+							</li>
+							<li class="p-4 text-lg text-left border-t-2 border-solid border-neutral-200/40">
+								<i class="inline-block mr-2 fas fa-check text-main"></i>
+								10 Subdomains
+							</li>
+							<li class="p-4 text-lg text-left border-t-2 border-solid border-neutral-200/40">
+								<i class="inline-block mr-2 fas fa-check text-main"></i>
+								20 Databases
+							</li>
+							<li class="p-4 text-lg text-left border-t-2 border-solid border-neutral-200/40">
+								<i class="inline-block mr-2 fas fa-check text-main"></i>
+								Professional Support
+							</li>
+						</ul>
+						<div class="pt-2 pb-8">
+							<button
+								class="px-6 py-4 text-lg font-bold capitalize transition border-2 border-solid rounded-md text-main border-main hover:text-white hover:bg-main">choose
+								plan</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Plans -->
+		<!-- Start Videos -->
+		<section class="relative py-24" id="videos">
+			<div class="absolute bg-[url('../img/dots.png')] w-[204px] h-[186px] bg-no-repeat top-16 right-0 -z-10"></div>
+			<div class="absolute bg-[url('../img/dots.png')] w-[204px] h-[186px] bg-no-repeat bottom-16 left-0 -z-10"></div>
+			<h2 class="main-title">top videos</h2>
+			<div class="container px-16 mx-auto">
+				<div class="flex flex-col items-stretch bg-white xl:flex-row outline-2 outline outline-neutral-200">
+					<div class="flex-1">
+						<h3 class="flex items-center justify-between p-4 font-bold capitalize bg-neutral-100">
+							top videos
+							<i class="fas fa-random"></i>
+						</h3>
+						<ul class="bg-white">
+							<li class="border-t-2 border-solid border-neutral-200">
+								<button class="w-full p-4 space-y-2 transition bg-white group hover:bg-neutral-50">
+									<h4 class="text-left transition group-hover:text-main">Uncharted Beating The Last Boss</h4>
+									<span class="block text-left text-neutral-500">06:18</span>
+								</button>
+							</li>
+							<li class="border-t-2 border-solid border-neutral-200">
+								<button class="w-full p-4 space-y-2 transition bg-white group hover:bg-neutral-50">
+									<h4 class="text-left transition group-hover:text-main">Uncharted Beating The Last Boss</h4>
+									<span class="block text-left text-neutral-500">06:18</span>
+								</button>
+							</li>
+							<li class="border-t-2 border-solid border-neutral-200">
+								<button class="w-full p-4 space-y-2 transition bg-white group hover:bg-neutral-50">
+									<h4 class="text-left transition group-hover:text-main">Uncharted Beating The Last Boss</h4>
+									<span class="block text-left text-neutral-500">06:18</span>
+								</button>
+							</li>
+							<li class="border-t-2 border-solid border-neutral-200">
+								<button class="w-full p-4 space-y-2 transition bg-white group hover:bg-neutral-50">
+									<h4 class="text-left transition group-hover:text-main">Uncharted Beating The Last Boss</h4>
+									<span class="block text-left text-neutral-500">06:18</span>
+								</button>
+							</li>
+							<li class="border-t-2 border-solid border-neutral-200">
+								<button class="w-full p-4 space-y-2 transition bg-white group hover:bg-neutral-50">
+									<h4 class="text-left transition group-hover:text-main">Uncharted Beating The Last Boss</h4>
+									<span class="block text-left text-neutral-500">06:18</span>
+								</button>
+							</li>
+							<li class="border-t-2 border-solid border-neutral-200">
+								<button class="w-full p-4 space-y-2 transition bg-white group hover:bg-neutral-50">
+									<h4 class="text-left transition group-hover:text-main">Uncharted Beating The Last Boss</h4>
+									<span class="block text-left text-neutral-500">06:18</span>
+								</button>
+							</li>
+						</ul>
+					</div>
+					<div class="w-full p-2 xl:w-3/4 bg-neutral-100">
+						<img src="./src/img/video-preview.jpg" alt="Video Image" />
+						<p class="p-4 mt-2 bg-white">I know it's Mario not Uncharted, I'm just lazy</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Videos -->
+		<!-- Start Stats -->
+		<section
+			class="py-24 relative before:absolute before:top-0 before:left-0 before:w-full before:h-full bg-[url('../img/stats.jpg')] bg-cover before:bg-white before:opacity-95"
+			id="stats">
+			<h2 class="relative z-10 mb-24 text-4xl font-bold text-center capitalize">our awesome stats</h2>
+			<div class="container z-10 relative mx-auto px-16 grid grid-cols-[repeat(auto-fill,minmax(16rem,1fr))] gap-16">
+				<div
+					class="relative p-4 space-y-4 text-center bg-white opacity-80 hover:opacity-100 before:absolute after:absolute before:left-0 after:right-0 before:top-0 after:bottom-0 before:bg-main before:w-1 after:w-1 after:bg-main before:h-0 after:h-0 before:transition-all after:transition-all hover:before:h-full hover:after:h-full before:z-10 after:z-10">
+					<i class="far fa-user fa-2x fa-fw"></i>
+					<span class="block text-5xl font-bold">150</span>
+					<span class="block text-xl italic font-bold capitalize text-main">clients</span>
+				</div>
+				<div
+					class="relative p-4 space-y-4 text-center bg-white opacity-80 hover:opacity-100 before:absolute after:absolute before:left-0 after:right-0 before:top-0 after:bottom-0 before:bg-main before:w-1 after:w-1 after:bg-main before:h-0 after:h-0 before:transition-all after:transition-all hover:before:h-full hover:after:h-full before:z-10 after:z-10">
+					<i class="fas fa-code fa-2x fa-fw"></i>
+					<span class="block text-5xl font-bold">135</span>
+					<span class="block text-xl italic font-bold capitalize text-main">projects</span>
+				</div>
+				<div
+					class="relative p-4 space-y-4 text-center bg-white opacity-80 hover:opacity-100 before:absolute after:absolute before:left-0 after:right-0 before:top-0 after:bottom-0 before:bg-main before:w-1 after:w-1 after:bg-main before:h-0 after:h-0 before:transition-all after:transition-all hover:before:h-full hover:after:h-full before:z-10 after:z-10">
+					<i class="fas fa-globe-asia fa-2x fa-fw"></i>
+					<span class="block text-5xl font-bold">50</span>
+					<span class="block text-xl italic font-bold capitalize text-main">countries</span>
+				</div>
+				<div
+					class="relative p-4 space-y-4 text-center bg-white opacity-80 hover:opacity-100 before:absolute after:absolute before:left-0 after:right-0 before:top-0 after:bottom-0 before:bg-main before:w-1 after:w-1 after:bg-main before:h-0 after:h-0 before:transition-all after:transition-all hover:before:h-full hover:after:h-full before:z-10 after:z-10">
+					<i class="far fa-money-bill-alt fa-2x fa-fw"></i>
+					<span class="block text-5xl font-bold">500</span>
+					<span class="block text-xl italic font-bold capitalize text-main">money</span>
+				</div>
+			</div>
+		</section>
+		<!-- End Stats -->
+		<!-- Start Discount -->
+		<section class="flex flex-col items-center lg:flex-row" id="discount">
+			<div
+				class="relative flex flex-col justify-center w-full min-h-screen p-12 py-20 text-center bg-cover lg:w-1/2 animate-discount-background before:absolute before:bottom-0 before:right-0 before:w-full before:h-full before:bg-main before:opacity-95">
+				<div class="max-w-[1200px] mx-auto space-y-10">
+					<h2 class="relative text-4xl font-bold text-white capitalize">we have a discount</h2>
+					<p class="relative text-xl text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Excepturi asperiores consectetur, recusandae ratione provident
+						necessitatibus, cumque delectus commodi fuga praesentium beatae.
+						Totam vel similique laborum dicta aperiam odit doloribus
+						corporis.</p>
+					<img class="relative mx-auto w-80" src="./src/img/discount.png" alt="Discount Image" />
+				</div>
+			</div>
+			<div class="w-full min-h-full p-12 py-20 text-center lg:w-1/2">
+				<div class="max-w-[1200px] flex flex-col justify-center mx-auto min-h-full">
+					<h2 class="mb-8 text-4xl font-bold capitalize">request a discount</h2>
+					<form class="space-y-4">
+						<input
+							class="block w-3/4 p-3 mx-auto border-b-2 border-solid placeholder:text-neutral-500 caret-main bg-neutral-50 focus:outline-none border-neutral-300"
+							type="text" placeholder="Your Name" />
+						<input
+							class="block w-3/4 p-3 mx-auto border-b-2 border-solid placeholder:text-neutral-500 caret-main bg-neutral-50 focus:outline-none border-neutral-300"
+							type="email" placeholder="Your Email" />
+						<input
+							class="block w-3/4 p-3 mx-auto border-b-2 border-solid placeholder:text-neutral-500 caret-main bg-neutral-50 focus:outline-none border-neutral-300"
+							type="text" placeholder="Your Phone" />
+						<textarea
+							class="block w-3/4 h-32 p-3 mx-auto border-b-2 border-solid resize-none placeholder:text-neutral-500 caret-main bg-neutral-50 focus:outline-none border-neutral-300"
+							placeholder="Tell Us Your Needs"></textarea>
+						<input
+							class="block w-3/4 p-3 mx-auto text-xl font-bold text-white capitalize transition cursor-pointer bg-main hover:bg-alt"
+							type="submit" value="send" />
+					</form>
+				</div>
+			</div>
+		</section>
+		<!-- End Discount -->
+	</main>
+	<!-- End Sections -->
+	<!-- Start Footer -->
+	<footer class="pt-24 bg-neutral-900">
+		<div class="container px-16 mx-auto grid grid-cols-[repeat(auto-fill,minmax(16rem,1fr))] gap-12">
+			<div class="space-y-4">
+				<h2 class="text-4xl font-bold text-center text-white capitalize md:text-left">elzero</h2>
+				<ul class="flex items-center justify-center gap-2 md:justify-start">
+					<li>
+						<a class="block p-3 transition bg-neutral-600 text-neutral-400 hover:bg-main hover:text-neutral-600"
+							href="#">
+							<i class="flex items-center justify-center w-6 h-6 fab fa-facebook-f"></i>
+						</a>
+					</li>
+					<li>
+						<a class="block p-3 transition bg-neutral-600 text-neutral-400 hover:bg-main hover:text-neutral-600"
+							href="#">
+							<i class="flex items-center justify-center w-6 h-6 fab fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a class="block p-3 transition bg-neutral-600 text-neutral-400 hover:bg-main hover:text-neutral-600"
+							href="#">
+							<i class="flex items-center justify-center w-6 h-6 fab fa-youtube"></i>
+						</a>
+					</li>
+				</ul>
+				<p class="text-center text-neutral-400 md:text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+					Temporibus nulla rem, dignissimos iste aspernatur
+				</p>
+			</div>
+			<ul class="divide-y-2 divide-neutral-500">
+				<li class="py-4 capitalize text-400 text-neutral-400">
+					<a class="block w-full text-center transition-all md:text-left hover:pl-3" href="#">
+						<i class="inline-block mr-2 text-main fas fa-angle-double-right"></i>
+						important link
+					</a>
+				</li>
+				<li class="py-4 capitalize text-400 text-neutral-400">
+					<a class="block w-full text-center transition-all md:text-left hover:pl-3" href="#">
+						<i class="inline-block mr-2 text-main fas fa-angle-double-right"></i>
+						important link
+					</a>
+				</li>
+				<li class="py-4 capitalize text-400 text-neutral-400">
+					<a class="block w-full text-center transition-all md:text-left hover:pl-3" href="#">
+						<i class="inline-block mr-2 text-main fas fa-angle-double-right"></i>
+						important link
+					</a>
+				</li>
+				<li class="py-4 capitalize text-400 text-neutral-400">
+					<a class="block w-full text-center transition-all md:text-left hover:pl-3" href="#">
+						<i class="inline-block mr-2 text-main fas fa-angle-double-right"></i>
+						important link
+					</a>
+				</li>
+				<li class="py-4 capitalize text-400 text-neutral-400">
+					<a class="block w-full text-center transition-all md:text-left hover:pl-3" href="#">
+						<i class="inline-block mr-2 text-main fas fa-angle-double-right"></i>
+						important link
+					</a>
+				</li>
+			</ul>
+			<div class="space-y-6">
+				<div class="flex flex-col items-center gap-4 text-center md:text-left md:flex-row text-neutral-400">
+					<i class="text-xl text-main fas fa-map-marker-alt fa-fw"></i>
+					Egypt, Giza, Inside The Sphinx, Room Number 220
+				</div>
+				<div class="flex flex-col items-center gap-4 text-center md:text-left md:flex-row text-neutral-400">
+					<i class="text-xl text-main far fa-clock fa-fw"></i>
+					Business Hours: From 10:00 To 18:00
+				</div>
+				<div class="flex flex-col items-center gap-4 text-center md:text-left md:flex-row text-neutral-400">
+					<i class="text-xl text-main fas fa-phone-volume fa-fw"></i>
+					+20123456789
+					<br />
+					+20198765432
+				</div>
+			</div>
+			<div class="flex flex-wrap items-start justify-center gap-4 h-fit">
+				<img class="w-20 border-2 border-white border-solid" src="./src/img/footer.png" alt="Footer Image" />
+				<img class="w-20 border-2 border-white border-solid" src="./src/img/footer.png" alt="Footer Image" />
+				<img class="w-20 border-2 border-white border-solid" src="./src/img/footer.png" alt="Footer Image" />
+				<img class="w-20 border-2 border-white border-solid" src="./src/img/footer.png" alt="Footer Image" />
+				<img class="w-20 border-2 border-white border-solid" src="./src/img/footer.png" alt="Footer Image" />
+				<img class="w-20 border-2 border-white border-solid" src="./src/img/footer.png" alt="Footer Image" />
+			</div>
+		</div>
+		<a class="block py-8 mt-12 font-bold text-center text-white transition border-t-2 border-solid border-neutral-500 hover:text-main"
+			href="https://github.com/devmotheg">Coded by Mohamed Muntasir</a>
+	</footer>
+	<!-- End Footer -->
+	<!-- webpack bundled main script with Tailwind CSS included -->
+	<script src="./dist/app.js"></script>
+</body>
+
+</html>
