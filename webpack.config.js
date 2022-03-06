@@ -22,7 +22,6 @@ module.exports = {
 		path: path.resolve(__dirname, "dist"),
 		clean: true,
 	},
-	watch: false,
 	watchOptions: {
 		ignored: /node_modules/i,
 		poll: 200,
