@@ -18,6 +18,6 @@
 
 @layer components {
 	.main-title {
-		@apply relative z-10 px-6 py-2 mx-auto mb-24 text-2xl font-bold uppercase transition-all rounded-full outline-2 outline-black outline w-fit before:absolute after:absolute before:top-2/4 after:top-2/4 before:-translate-y-1/2 after:-translate-y-1/2 before:-left-8 after:-right-8 before:rounded-full after:rounded-full before:bg-main after:bg-main before:w-3 before:h-3 after:w-3 after:h-3 before:transition-all after:transition-all hover:before:left-0 hover:after:right-0 hover:before:h-full hover:after:h-full hover:before:w-full hover:after:w-full hover:text-white hover:outline-transparent hover:before:-z-10 hover:after:-z-10;
+		@apply relative z-10 px-6 py-2 mx-auto mb-24 text-2xl font-bold uppercase transition-all outline-2 outline-black outline w-fit before:absolute after:absolute before:top-2/4 after:top-2/4 before:-translate-y-1/2 after:-translate-y-1/2 before:-left-8 after:-right-8 before:rounded-full after:rounded-full before:bg-main after:bg-main before:w-3 before:h-3 after:w-3 after:h-3 before:transition-all after:transition-all hover:before:left-0 hover:after:right-0 hover:before:h-full hover:after:h-full hover:before:w-full hover:after:w-full hover:text-white hover:outline-transparent hover:before:-z-10 hover:after:-z-10 hover:after:rounded-none hover:before:rounded-none;
 	}
 }
