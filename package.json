@@ -7,7 +7,7 @@
     "build-dev": "webpack --mode development --watch",
     "build-prod": "webpack --mode production"
   },
-  "author": "",
+  "author": "Mohamed Muntasir",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.2",
